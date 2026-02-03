@@ -115,7 +115,7 @@ export function TMDBEnrichButton({ movie, onEnriched }: TMDBEnrichButtonProps) {
                 <ModalHeader>
                     <h2 className="text-xl font-bold">Buscar Dados no TMDB</h2>
                     <p className="text-sm text-muted-foreground mt-1">
-                        Procure e selecione o resultado correto para "{movie.title}"
+                        Procure e selecione o resultado correto para &quot;{movie.title}&quot;
                     </p>
                 </ModalHeader>
 
