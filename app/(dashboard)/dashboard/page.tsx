@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { ListPlus, CheckCircle, Television, FilmStrip } from "@phosphor-icons/react/dist/ssr";
-import { Button } from "@/components/ui/button";    
+import { Button } from "@/components/ui/button";
 import { HeroSection } from "@/components/hero-section";
 import { MovieCarousel } from "@/components/movie-carousel";
 import { EmptyState } from "@/components/empty-state";
@@ -139,16 +139,40 @@ export default function DashboardPage() {
             {/* Stats Section */}
             <section className="px-4 md:px-0">
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                    {/* Watchlist */}
                     <div className="glass rounded-xl p-4 flex flex-col items-center justify-center gap-2 group hover:bg-white/5 transition-colors">
                         <ListPlus weight="duotone" className="w-8 h-8 text-primary mb-2 group-hover:scale-110 transition-transform" />
                         <div className="text-3xl font-bold text-white">
-                            {watchlistMovies.length > 0 &&
-                                (watchlistMovies.length === 15 ? "15+" : watchlistMovies.length)
-                            }
-                            {stats.watchlist > 15 ? stats.watchlist : null}
-                            {/* Ajuste: na verdade stats.watchlist tem o valor total correto, então vamos usar ele sempre */}
+                            {stats.watchlist}
                         </div>
-                        {/* Corrigindo display do count - vou reescrever essa lógica no write_to_file para ser mais limpa */}
+                        <p className="text-sm text-muted-foreground uppercase tracking-wider font-medium">Para Assistir</p>
+                    </div>
+
+                    {/* Watched */}
+                    <div className="glass rounded-xl p-4 flex flex-col items-center justify-center gap-2 group hover:bg-white/5 transition-colors">
+                        <CheckCircle weight="duotone" className="w-8 h-8 text-green-500 mb-2 group-hover:scale-110 transition-transform" />
+                        <div className="text-3xl font-bold text-white">
+                            {stats.watched}
+                        </div>
+                        <p className="text-sm text-muted-foreground uppercase tracking-wider font-medium">Assistidos</p>
+                    </div>
+
+                    {/* Movies */}
+                    <div className="glass rounded-xl p-4 flex flex-col items-center justify-center gap-2 group hover:bg-white/5 transition-colors">
+                        <FilmStrip weight="duotone" className="w-8 h-8 text-blue-500 mb-2 group-hover:scale-110 transition-transform" />
+                        <div className="text-3xl font-bold text-white">
+                            {stats.movies}
+                        </div>
+                        <p className="text-sm text-muted-foreground uppercase tracking-wider font-medium">Filmes</p>
+                    </div>
+
+                    {/* Series */}
+                    <div className="glass rounded-xl p-4 flex flex-col items-center justify-center gap-2 group hover:bg-white/5 transition-colors">
+                        <Television weight="duotone" className="w-8 h-8 text-purple-500 mb-2 group-hover:scale-110 transition-transform" />
+                        <div className="text-3xl font-bold text-white">
+                            {stats.series}
+                        </div>
+                        <p className="text-sm text-muted-foreground uppercase tracking-wider font-medium">Séries</p>
                     </div>
                 </div>
             </section>
