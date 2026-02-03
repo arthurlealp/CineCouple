@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Premium "Noite a Dois" Theme 🌙 */
+    /* Background: Deep slate with hint of purple */
+    --background: 222 47% 7%;
+    --foreground: 210 40% 98%;
+
+    /* Cards: Slightly lighter slate */
+    --card: 225 35% 12%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 225 35% 10%;
+    --popover-foreground: 210 40% 98%;
+
+    /* Primary: Rich Violet */
+    --primary: 263 70% 50%;
+    --primary-foreground: 210 40% 98%;
+
+    /* Secondary: Deep Indigo */
+    --secondary: 234 89% 60%;
+    --secondary-foreground: 210 40% 98%;
+
+    /* Muted: Dark slate tones */
+    --muted: 225 30% 15%;
+    --muted-foreground: 215 20% 55%;
+
+    /* Accent: Cyan Neon glow ✨ */
+    --accent: 187 90% 55%;
+    --accent-foreground: 222 47% 7%;
+
+    --destructive: 0 72% 45%;
+    --destructive-foreground: 210 40% 98%;
+
+    /* Border & Input: Subtle violet hints */
+    --border: 260 20% 18%;
+    --input: 260 20% 18%;
+    --ring: 263 70% 50%;
+
+    --radius: 0.75rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+/* Scrollbar personalizada */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(var(--muted));
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--muted-foreground) / 0.5);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--muted-foreground) / 0.7);
+}
+
+/* Animações suaves */
+@layer utilities {
+  .animate-in {
+    animation: animateIn 0.3s ease-out;
+  }
+
+  @keyframes animateIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .glass {
+    @apply bg-card/80 backdrop-blur-md border border-border/50;
+  }
+
+  .gradient-primary {
+    background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--secondary)) 100%);
+  }
+
+  /* Neon glow effects ✨ */
+  .neon-glow {
+    box-shadow: 0 0 20px hsl(var(--accent) / 0.3),
+      0 0 40px hsl(var(--accent) / 0.1);
+  }
+
+  .neon-text {
+    text-shadow: 0 0 10px hsl(var(--accent) / 0.5),
+      0 0 20px hsl(var(--accent) / 0.3);
+  }
+
+  .gradient-glow {
+    background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--secondary)) 50%, hsl(var(--accent)) 100%);
+  }
+}
+
+/* Platform badges */
+.platform-netflix {
+  @apply bg-netflix/20 text-netflix border-netflix/30;
+}
+
+.platform-disney {
+  @apply bg-disney/20 text-disney border-disney/30;
+}
+
+.platform-hbo {
+  @apply bg-hbo/20 text-hbo border-hbo/30;
+}

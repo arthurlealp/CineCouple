@@ -1,0 +1,429 @@
+[
+    {
+        "platform": "netflix",
+        "list": [
+            {
+                "title": "Jurassic Park",
+                "type": "movie"
+            },
+            {
+                "title": "Interestelar",
+                "type": "movie"
+            },
+            {
+                "title": "Como Eu Era Antes de Você",
+                "type": "movie"
+            },
+            {
+                "title": "Como Perder um Homem em 10 Dias",
+                "type": "movie"
+            },
+            {
+                "title": "Gênio Indomável",
+                "type": "movie"
+            },
+            {
+                "title": "Velozes e Furiosos",
+                "type": "movie"
+            },
+            {
+                "title": "Um Divã para Dois",
+                "type": "movie"
+            },
+            {
+                "title": "Se Beber Não Case",
+                "type": "movie"
+            },
+            {
+                "title": "Corra!",
+                "type": "movie"
+            },
+            {
+                "title": "O Silêncio dos Inocentes",
+                "type": "movie"
+            },
+            {
+                "title": "Central do Brasil",
+                "type": "movie"
+            },
+            {
+                "title": "Cidade de Deus",
+                "type": "movie"
+            },
+            {
+                "title": "O Poderoso Chefão",
+                "type": "movie"
+            },
+            {
+                "title": "Sociedade dos Poetas Mortos",
+                "type": "movie"
+            },
+            {
+                "title": "Parasita",
+                "type": "movie"
+            },
+            {
+                "title": "Prenda-me se for Capaz",
+                "type": "movie"
+            },
+            {
+                "title": "Eu Sei o que Vocês Fizeram no Verão Passado",
+                "type": "movie"
+            },
+            {
+                "title": "Ilha do Medo",
+                "type": "movie"
+            },
+            {
+                "title": "Batman: O Cavaleiro das Trevas",
+                "type": "movie"
+            },
+            {
+                "title": "Mamma Mia!",
+                "type": "movie"
+            },
+            {
+                "title": "A Sociedade da Neve",
+                "type": "movie"
+            },
+            {
+                "title": "O Poço",
+                "type": "movie"
+            },
+            {
+                "title": "Democracia em Vertigem",
+                "type": "movie"
+            },
+            {
+                "title": "Bacurau",
+                "type": "movie"
+            },
+            {
+                "title": "Psicopata Americano",
+                "type": "movie"
+            },
+            {
+                "title": "Clube da Luta",
+                "type": "movie"
+            },
+            {
+                "title": "Bastardos Inglórios",
+                "type": "movie"
+            },
+            {
+                "title": "O Resgate do Soldado Ryan",
+                "type": "movie"
+            },
+            {
+                "title": "O Menino do Pijama Listrado",
+                "type": "movie"
+            },
+            {
+                "title": "A Vida é Bela",
+                "type": "movie"
+            },
+            {
+                "title": "A Paixão de Cristo",
+                "type": "movie"
+            },
+            {
+                "title": "Pulp Fiction",
+                "type": "movie"
+            },
+            {
+                "title": "Mad Max: Estrada da Fúria",
+                "type": "movie"
+            },
+            {
+                "title": "Que Horas Ela Volta?",
+                "type": "movie"
+            },
+            {
+                "title": "Stranger Things",
+                "type": "series"
+            },
+            {
+                "title": "Breaking Bad",
+                "type": "series"
+            },
+            {
+                "title": "La Casa de Papel",
+                "type": "series"
+            },
+            {
+                "title": "The Crown",
+                "type": "series"
+            },
+            {
+                "title": "Black Mirror",
+                "type": "series"
+            }
+        ]
+    },
+    {
+        "platform": "disney",
+        "list": [
+            {
+                "title": "Avatar",
+                "type": "movie"
+            },
+            {
+                "title": "Elementos",
+                "type": "movie"
+            },
+            {
+                "title": "O Diabo Veste Prada",
+                "type": "movie"
+            },
+            {
+                "title": "Piratas do Caribe: A Maldição do Pérola Negra",
+                "type": "movie"
+            },
+            {
+                "title": "O Diário da Princesa",
+                "type": "movie"
+            },
+            {
+                "title": "Star Wars: Uma Nova Esperança",
+                "type": "movie"
+            },
+            {
+                "title": "Uma Sexta-Feira Muito Louca",
+                "type": "movie"
+            },
+            {
+                "title": "Luca",
+                "type": "movie"
+            },
+            {
+                "title": "Mufasa",
+                "type": "movie"
+            },
+            {
+                "title": "O Rei Leão",
+                "type": "movie"
+            },
+            {
+                "title": "Tron",
+                "type": "movie"
+            },
+            {
+                "title": "A Era do Gelo",
+                "type": "movie"
+            },
+            {
+                "title": "Planeta dos Macacos: A Origem",
+                "type": "movie"
+            },
+            {
+                "title": "A Proposta",
+                "type": "movie"
+            },
+            {
+                "title": "O Melhor Amigo da Noiva",
+                "type": "movie"
+            },
+            {
+                "title": "Viva: A Vida é uma Festa",
+                "type": "movie"
+            },
+            {
+                "title": "Moana",
+                "type": "movie"
+            },
+            {
+                "title": "O Sexto Sentido",
+                "type": "movie"
+            },
+            {
+                "title": "Pobres Criaturas",
+                "type": "movie"
+            },
+            {
+                "title": "O Regresso",
+                "type": "movie"
+            },
+            {
+                "title": "Abracadabra",
+                "type": "movie"
+            },
+            {
+                "title": "Vovó... Zona",
+                "type": "movie"
+            },
+            {
+                "title": "10 Coisas que Eu Odeio em Você",
+                "type": "movie"
+            },
+            {
+                "title": "A Culpa é das Estrelas",
+                "type": "movie"
+            },
+            {
+                "title": "Histórias Cruzadas",
+                "type": "movie"
+            },
+            {
+                "title": "La La Land",
+                "type": "movie"
+            },
+            {
+                "title": "WandaVision",
+                "type": "series"
+            },
+            {
+                "title": "The Mandalorian",
+                "type": "series"
+            },
+            {
+                "title": "Loki",
+                "type": "series"
+            },
+            {
+                "title": "Only Murders in the Building",
+                "type": "series"
+            }
+        ]
+    },
+    {
+        "platform": "hbo",
+        "list": [
+            {
+                "title": "Pecadores",
+                "type": "movie"
+            },
+            {
+                "title": "Harry Potter e a Pedra Filosofal",
+                "type": "movie"
+            },
+            {
+                "title": "Um Sonho de Liberdade",
+                "type": "movie"
+            },
+            {
+                "title": "À Espera de um Milagre",
+                "type": "movie"
+            },
+            {
+                "title": "O Senhor dos Anéis: A Sociedade do Anel",
+                "type": "movie"
+            },
+            {
+                "title": "A Origem",
+                "type": "movie"
+            },
+            {
+                "title": "Diário de uma Paixão",
+                "type": "movie"
+            },
+            {
+                "title": "Amores Materialistas",
+                "type": "movie"
+            },
+            {
+                "title": "Whiplash",
+                "type": "movie"
+            },
+            {
+                "title": "It: A Coisa",
+                "type": "movie"
+            },
+            {
+                "title": "Invocação do Mal",
+                "type": "movie"
+            },
+            {
+                "title": "Annabelle",
+                "type": "movie"
+            },
+            {
+                "title": "Comer, Rezar, Amar",
+                "type": "movie"
+            },
+            {
+                "title": "Duna",
+                "type": "movie"
+            },
+            {
+                "title": "A Casa de Cera",
+                "type": "movie"
+            },
+            {
+                "title": "De Repente 30",
+                "type": "movie"
+            },
+            {
+                "title": "Esposa de Mentirinha",
+                "type": "movie"
+            },
+            {
+                "title": "A Verdade Nua e Crua",
+                "type": "movie"
+            },
+            {
+                "title": "Rei Arthur",
+                "type": "movie"
+            },
+            {
+                "title": "Gente Grande",
+                "type": "movie"
+            },
+            {
+                "title": "A Freira",
+                "type": "movie"
+            },
+            {
+                "title": "Coraline",
+                "type": "movie"
+            },
+            {
+                "title": "300",
+                "type": "movie"
+            },
+            {
+                "title": "O Pequenino",
+                "type": "movie"
+            },
+            {
+                "title": "Passageiros",
+                "type": "movie"
+            },
+            {
+                "title": "Her",
+                "type": "movie"
+            },
+            {
+                "title": "Barbie",
+                "type": "movie"
+            },
+            {
+                "title": "Before Sunrise",
+                "type": "movie"
+            },
+            {
+                "title": "Game of Thrones",
+                "type": "series"
+            },
+            {
+                "title": "The Last of Us",
+                "type": "series"
+            },
+            {
+                "title": "Succession",
+                "type": "series"
+            },
+            {
+                "title": "Euphoria",
+                "type": "series"
+            },
+            {
+                "title": "House of the Dragon",
+                "type": "series"
+            },
+            {
+                "title": "True Detective",
+                "type": "series"
+            }
+        ]
+    }
+]
