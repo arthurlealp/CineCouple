@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { Search, Plus, Check, Film, Tv, TrendingUp, ArrowLeft, Loader2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -31,11 +31,7 @@ export default function DiscoverPage() {
     const [addedIds, setAddedIds] = useState<Set<number>>(new Set());
     const [selectedPlatform, setSelectedPlatform] = useState('netflix');
 
-    useEffect(() => {
-        fetchContent();
-    }, [activeTab]);
-
-    const fetchContent = async (query?: string) => {
+    const fetchContent = useCallback(async (query?: string) => {
         setLoading(true);
         try {
             const params = new URLSearchParams();
@@ -50,7 +46,11 @@ export default function DiscoverPage() {
             console.error('Fetch error:', error);
         }
         setLoading(false);
-    };
+    }, [activeTab]);
+
+    useEffect(() => {
+        fetchContent();
+    }, [fetchContent, activeTab]);
 
     const handleSearch = () => {
         if (searchQuery.trim()) {
